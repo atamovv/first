@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой первый сайт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 id="title">Привет, мир!</h1>
+
+    <button id="themeBtn">Переключить тему</button>
+
+    <br><br>
+
+    <input type="text" id="nameInput" placeholder="Введите ваше имя">
+    <button id="greetBtn">Поздороваться</button>
+  </div>
+
+  <div id="overlay" class="overlay">
+    <div class="modal">
+      <p id="greetingText"></p>
+      <button onclick="closeModal()">Закрыть</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
